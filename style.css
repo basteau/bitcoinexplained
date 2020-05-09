@@ -13,6 +13,7 @@ body {
 @media only screen and (max-width: 650px) {
     body {
         border: none;
+        background-image: none;
     }
 }
 
