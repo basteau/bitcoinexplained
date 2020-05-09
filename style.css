@@ -1,11 +1,12 @@
 
 body {
     /*background: rgb(255,123,8);*/
-    background: rgb(0,0,0);
+    /*background: rgb(0,0,0);*/
+    background-image: url("images/bitcoinbackground.png");
     background-size: contain;
     background-repeat: repeat-y;
     font-family: monospace;
-    border: orange solid 2px;
+    /*border: orange solid 2px;*/
     border-radius: 6px;
 }
 
@@ -173,7 +174,13 @@ section {
         border: orange solid 2px;
         margin-right: 1rem
     }
-  }
+}
+
+.textimageNoHover {
+    width: 48%;
+    min-width: 200px;
+    border: orange solid 2px;
+}
 
 .textimageSmall {
     width: 37%;
