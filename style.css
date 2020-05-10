@@ -6,13 +6,10 @@ body {
     background-size: contain;
     background-repeat: repeat-y;
     font-family: monospace;
-    /*border: orange solid 2px;*/
-    border-radius: 6px;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 550px) {
     body {
-        border: none;
         background-image: none;
         background: rgb(0,0,0);
     }
@@ -120,17 +117,27 @@ header {
 }
 
 
+/*IMAGES POPPING OUT*/
+#myImg {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-delay:0.04s;
+  }
+
+  
+
+
 section {
     margin: 0.3em 0;
     text-align: center;
     /*border: blue solid 2px;*/
     width:100%;
     
-
 }
 
 .container {
-    width: 95%;
+    width: 93%;
     max-width: 1000px;
     margin: 0 auto;
     /*border: magenta solid 2px;*/
@@ -145,56 +152,53 @@ section {
 }
 
 .textimageBig {
-    width: 55%;
+    width: 50%;
     min-width: 250px;
     border: orange solid 2px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) {
     .textimageBig:hover {
         width: 86%;
         
     }
 }
 
+.textimageBigNoHover {
+    width: 53%;
+    min-width: 250px;
+    border: orange solid 2px;
+    margin-right: 1rem;
+}
+
 .textimage {
-    width: 48%;
-    min-width: 200px;
+    width: 43%;
+    min-width: 220px;
     border: orange solid 2px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 600px) {
     .textimage:hover {
         width: 70%;
-        height:80%;
-        /*height: 90%;*/
-    }
-}
-@media only screen and (min-width: 800px) {
-    .textimage {
-        width: 48%;
-        min-width: 200px;
-        border: orange solid 2px;
-        margin-right: 1rem
     }
 }
 
+
+
 .textimageNoHover {
-    width: 48%;
+    width: 43%;
     min-width: 200px;
     border: orange solid 2px;
+    margin-right: 1rem;
 }
 
 .textimageSmall {
-    width: 37%;
+    width: 36%;
     min-width: 200px;
     border: orange solid 2px;
 }
 
 @media only screen and (min-width: 800px) {
     .textimageSmall {
-        width: 37%;
-        min-width: 200px;
-        border: orange solid 2px;
         margin-right: 1rem
     }
 }
@@ -206,8 +210,6 @@ section {
 
 @media only screen and (min-width: 800px) {
     .textimageSmallNoBorder {
-        width: 17%;
-        min-width: 150px;
         margin-right: 1rem
     }
 }
