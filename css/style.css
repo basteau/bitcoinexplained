@@ -79,6 +79,10 @@ article italic {
     font-size: 1.1rem;
 }
 
+article .margin {
+    margin: 3rem 0rem;
+}
+
 /*CENTERING CLASS*/
 .centered {
     text-align: center;
@@ -229,7 +233,7 @@ item {
 
 /*FOOTER*/
 footer {
-    margin: 5rem 0 0 0;
+    margin: 3rem 0 0 0;
     color: whitesmoke;
     text-align: center;
     /*border: green solid 2px;*/
