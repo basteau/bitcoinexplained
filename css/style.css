@@ -58,8 +58,8 @@ header {
 }
 
 header .logo {
-    width: 12%;
-    min-width: 140px;
+    width: 55%;
+    min-width: 250px;
     margin: 0.1rem auto;
     margin-top: 0.8rem;
 }
@@ -73,14 +73,14 @@ article .pageTitle {
 }
 
 article h1 {
-    font-size: 1.55rem;
+    font-size: 1.58rem;
     font-weight: bold;
     text-align: left;
 
 }
 
 article p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 
 /*ARTICLE BOLD AND ITALIC*/
@@ -99,7 +99,7 @@ article bold {
 
 article italic {
     font-style: italic;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 
 article .margin {
@@ -117,28 +117,28 @@ quotelist {
     text-align: left;
 }
 quoteList p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: bold;
     display: block;
     margin: 0.22rem auto;
 }
 
 author {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     display: block;
     margin: 0.3rem 0rem;
 }
 
 /*STATEMENT*/
 statement {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: bold;
     display: block;
     margin: 0.7rem 0rem;
 }
 
 item {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: normal;
     display: block;
     margin: 0.5rem 0rem;
@@ -236,7 +236,7 @@ item {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     display: block;
     margin-top: 0.14rem;
     margin-bottom: 1.2rem;
