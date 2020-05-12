@@ -58,10 +58,9 @@ header {
 }
 
 header .logo {
-    width: 68%;
-    max-width: 620px;
-    min-width: 260px;
-    margin: 0.1rem auto;
+    width: 15%;
+    min-width: 180px;
+    margin: 0rem auto;
     margin-top: 0.9rem;
 }
 
@@ -71,12 +70,14 @@ article .pageTitle {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 0.67rem;
+    color: white;
 }
 
 article h1 {
     font-size: 1.58rem;
     font-weight: bold;
     text-align: left;
+    color: orange;
 
 }
 
