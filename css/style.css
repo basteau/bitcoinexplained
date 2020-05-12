@@ -47,7 +47,7 @@ body {
 article {
     width: 90%;
     max-width: 1200px;
-    text-align: left;
+    text-align: justify;
     margin: 0 auto;
     /*border: white solid 2px;*/
 }
@@ -244,6 +244,12 @@ item {
     margin-bottom: 1.2rem;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
+}
+
+/*quote width*/
+.quoteDiv {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /*LINK IN TEXT*/
