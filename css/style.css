@@ -33,8 +33,6 @@
 
 
 
-
-
 /*BODY*/
 body {
     background: black;
@@ -249,7 +247,6 @@ item {
 }
 
 /*LINK IN TEXT*/
-
 .textLink {
     color:orange;
     text-decoration: none;
