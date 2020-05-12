@@ -58,10 +58,11 @@ header {
 }
 
 header .logo {
-    width: 55%;
-    min-width: 250px;
+    width: 68%;
+    max-width: 620px;
+    min-width: 260px;
     margin: 0.1rem auto;
-    margin-top: 0.8rem;
+    margin-top: 0.9rem;
 }
 
 
