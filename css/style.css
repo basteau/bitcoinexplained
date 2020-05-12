@@ -75,6 +75,7 @@ article .pageTitle {
 article h1 {
     font-size: 1.55rem;
     font-weight: bold;
+    text-align: left;
 
 }
 
@@ -147,8 +148,8 @@ item {
 
 /*HONEYBADGER*/
 .honeyBadger {
-    width: 14%;
-    min-width: 95px;
+    width: 13%;
+    min-width: 105px;
     margin-top: 1.7rem;
     margin-bottom: 0.4rem;
 }
@@ -180,14 +181,7 @@ item {
     border-radius: 10px;
     margin: 1rem 0rem;
 }
-.textImageFooter {
-    width: 5%;
-    min-width: 90px;
-    margin: 0rem 0rem;
-    border: black solid 1px;
-    border-radius: 35px;
 
-}
 
 @media only screen and (min-width: 600px) {
     .textImage:hover {
@@ -271,4 +265,12 @@ footer {
 footer p {
     font-weight: bold;
     margin: 0rem 0rem;
+}
+
+.textImageFooter {
+    width: 5%;
+    min-width: 55px;
+    margin: 0rem 0rem;
+    border: black solid 1px;
+    border-radius: 35px;
 }
