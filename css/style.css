@@ -151,6 +151,12 @@ item {
 }
 
 /*IMAGES*/
+.cornerLogo {
+    position: absolute;
+    top: 25px;
+    left: 5.5%;
+}
+
 
 /*HONEYBADGER*/
 .honeyBadger {
@@ -288,3 +294,15 @@ footer p {
     border: black solid 1px;
     border-radius: 35px;
 }
+
+.noMargin {
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+
+@media only screen and (max-width: 660px) {
+    .onlyLarge {
+        display: none;
+    }
+}
+
