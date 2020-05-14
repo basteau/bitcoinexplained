@@ -4,4 +4,4 @@ This project was set up to give a more truthful and thoughtful answer to the que
 
 Feel free to make suggestions if you think something is missing/incorrect
 
-Enjoy
+Enjoy, stack sats & stay humble
