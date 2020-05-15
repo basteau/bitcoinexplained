@@ -298,6 +298,8 @@ footer p {
 .noMargin {
     margin: 0rem 0rem;
     padding: 0rem 0rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 @media only screen and (max-width: 840px) {
