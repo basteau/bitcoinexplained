@@ -308,3 +308,12 @@ footer p {
     }
 }
 
+@media only screen and (min-width: 840px) {
+    .onlySmall {
+        display: none;
+    }
+}
+.onlySmall {
+    font-size: smaller;
+}
+
